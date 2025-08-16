@@ -1,17 +1,29 @@
 # Solana Token ML Dashboard (Simulated)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://solana-ml-dashboard-kjxms2o9ep4t5udjuffys9.streamlit.app/)
 
-This Streamlit app simulates on-chain–style Solana token data, generates trading signals with a machine learning model, backtests a simple strategy, and clusters tokens into Emerging / Stable / Declining categories based on recent trends.
+An interactive Streamlit app that **simulates on-chain Solana token data**, engineers features, trains a lightweight ML model, and runs a simple backtest. It also clusters tokens into **Emerging / Stable / Declining** based on recent activity trends.
 
-## Features
-- **Synthetic Data Simulation** – 30 tokens, hourly data, random spikes in activity/price/liquidity.
-- **Feature Engineering** – returns, volatility, EMA ratios, z-scores for activity metrics, liquidity changes.
-- **ML Model** – Gradient Boosting Classifier to predict next-hour up moves.
-- **Backtesting** – TP/SL/timed exits with fee assumptions.
-- **Trend Detection** – 14-day clustering into Emerging, Stable, Declining groups.
-- **Interactive UI** – inspect token price charts with signal markers, equity curves, and activity trends.
+> ⚠️ Uses **synthetic** data (NDA-safe). Designed to mimic on-chain dynamics (volume/whales/liquidity spikes) so the ML model has real signal to learn.
 
-## How to Run Locally
-```bash
-pip install -r requirements.txt
-streamlit run app.py
+---
 
+## ✨ Features
+- **Synthetic Data Simulation** – 30 tokens, hourly bars, random activity & price/liq spikes.
+- **Feature Engineering** – returns, rolling volatility, EMA ratios, z-scores (volume/tx/whales), liquidity change.
+- **ML Model** – Gradient Boosting Classifier predicting next-hour up moves.
+- **Backtesting** – TP/SL/timed exits with simple fee assumptions; equity curve + trade log.
+- **Trend Detection** – 14-day clustering into Emerging / Stable / Declining from activity trends.
+- **Interactive UI** – token price with signal markers; tweak TP/SL/H & threshold live.
+
+---
+
+## 🖥 Live App
+Launch in your browser:  
+**https://solana-ml-dashboard-kjxms2o9ep4t5udjuffys9.streamlit.app/**
+
+---
+
+## 📷 Screenshot
+> Replace with a real image from your app:
+```markdown
+![App Screenshot](Screenshot1.png)(Screenshot2.png)
