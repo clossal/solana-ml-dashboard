@@ -24,6 +24,7 @@ Launch in your browser:
 ---
 
 ## 📷 Screenshot
-> Replace with a real image from your app:
+
 ```markdown
-![App Screenshot](Screenshot1.png)(Screenshot2.png)
+![App Screenshot](Screenshot1.png)
+![App Screenshot](Screenshot2.png)
