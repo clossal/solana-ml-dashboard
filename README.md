@@ -25,6 +25,6 @@ Launch in your browser:
 
 ## 📷 Screenshot
 
-```markdown
+
 ![App Screenshot](Screenshot1.png)
 ![App Screenshot](Screenshot2.png)
